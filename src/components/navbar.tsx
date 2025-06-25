@@ -13,9 +13,10 @@ export const NavBar = () => {
 
   const MENU_LIST = [
     { name: "About", href: "#about" },
-    { name: "Features", href: "#features" },
-    { name: "Tokenomics", href: "#tokenomics" },
+    // { name: "Features", href: "#features" },
+    // { name: "Tokenomics", href: "#tokenomics" },
     { name: "Roadmaps", href: "#roadmaps" },
+    { name: "Documentation", href: socialsLink.whitepaper },
   ];
 
   const menuVariants = {
@@ -49,7 +50,7 @@ export const NavBar = () => {
         {/* Button */}
         <div className="hidden md:block">
           <div className="flex flex-row items-center gap-6">
-            <Link
+            {/* <Link
               href={socialsLink.telegram}
               target="_blank"
               rel="noopener noreferrer"
@@ -58,7 +59,7 @@ export const NavBar = () => {
                 className="fill-white hover:fill-primaryColor transform transition-all duration-300 hover:scale-110 hover:rotate-12"
                 style={{ fontSize: "1.5em" }}
               />
-            </Link>
+            </Link> */}
             <Link
               href={socialsLink.twitter}
               target="_blank"
@@ -128,7 +129,7 @@ export const NavBar = () => {
             ))}
 
             <div className="flex flex-row items-center gap-6">
-              <Link
+              {/* <Link
                 href={socialsLink.telegram}
                 target="_blank"
                 rel="noopener noreferrer"
@@ -137,7 +138,7 @@ export const NavBar = () => {
                   className="fill-white hover:fill-primaryColor transform transition-all duration-300 hover:scale-110 hover:rotate-12"
                   style={{ fontSize: "1.5em" }}
                 />
-              </Link>
+              </Link> */}
               <Link
                 href={socialsLink.twitter}
                 target="_blank"

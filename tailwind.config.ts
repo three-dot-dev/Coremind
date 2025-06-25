@@ -6,8 +6,8 @@ export default {
   theme: {
     extend: {
       colors: {
-        primaryColor: "#226bcf",
-        primaryColorLight: "#0a2576",
+        primaryColor: "#ff5559",
+        primaryColorLight: "#db0230",
         background: "hsl(var(--background))",
         foreground: "hsl(var(--foreground))",
         card: {

@@ -15,9 +15,9 @@ export const kanitBold = Teko({
   preload: true,
 });
 
-export const mokoto = localFont({
-  src: "../lib/spyagency.ttf",
-  weight: "1000",
+export const coolvetica = localFont({
+  src: "./coolvetica.ttf",
+  weight: "700",
   display: "swap",
   preload: true,
 });

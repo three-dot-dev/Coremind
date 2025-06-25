@@ -74,14 +74,14 @@ export const Hero = () => {
         whileInView="visible"
         viewport={{ once: false }}
       >
-        <h1 className="text-4xl md:text-5xl lg:text-6xl xl:text-7xl 2xl:text-[5rem] leading-tight font-bold tracking-tight text-white">
+        <h1 className="text-4xl md:text-5xl lg:text-6xl xl:text-8xl 2xl:text-[6rem] leading-tight font-bold tracking-tight text-white">
           Unlock Intelligent Insights with{" "}
           <span className="text-primaryColor"> Coremind </span>
         </h1>
-        <p className="mt-4 text-lg text-gray-300">
+        <p className="mt-4 text-2xl text-gray-300">
           For industries that need to meet compliance
         </p>
-        <p className="text-lg text-gray-300">
+        <p className="text-2xl text-gray-300">
           standards and protect sensitive information
         </p>
         <motion.div
@@ -106,7 +106,7 @@ export const Hero = () => {
             target="_blank"
             rel="noopener noreferrer"
           >
-            <button className="px-8 py-3 border border-primaryColor text-primaryColor font-semibold rounded-full shadow-lg hover:bg-primaryColorLight transition-transform duration-300">
+            <button className="px-8 py-3 border border-primaryColor text-primaryColor font-semibold rounded-full shadow-lg hover:bg-primaryColorLight hover:text-white transition-transform duration-300">
               Documentation
             </button>
           </Link>

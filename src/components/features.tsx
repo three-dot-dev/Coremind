@@ -101,7 +101,7 @@ export const Features: React.FC = () => {
           {features.map((feature, index) => (
             <SwiperSlide key={index} className="mb-8">
               <motion.div
-                className="p-8 bg-gradient-to-br from-primaryColor to-white/10 backdrop-blur-md rounded-3xl shadow-lg border border-primaryColorLight hover:scale-105 transition-transform duration-300 min-h-[370px]"
+                className="p-8 bg-transparent from-primaryColor to-white/10 backdrop-blur-md rounded-3xl shadow-lg border-2 border-primaryColorLight hover:scale-105 transition-transform duration-300 min-h-[370px]"
                 initial="hidden"
                 whileInView="visible"
                 variants={fadeInUp}

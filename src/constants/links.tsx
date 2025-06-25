@@ -2,8 +2,8 @@ export const contractAddress = "";
 export const pairAddress = "";
 
 export const socialsLink = {
-  whitepaper: "",
-  twitter: "https://x.com/",
+  whitepaper: "/",
+  twitter: "https://x.com/useCoremind",
   telegram: "https://t.me/",
   medium: "https://medium.com",
   email: "mailto:",
@@ -17,4 +17,5 @@ export const findUsLink = {
   etherscan: `https://etherscan.io/token/${contractAddress}`,
   uniswap: `https://app.uniswap.org/tokens/ethereum/${contractAddress}`,
   coingecko: `https://www.coingecko.com/en/coins/`,
+  pumpfun: `https://pump.fun/coin/${contractAddress}`,
 };

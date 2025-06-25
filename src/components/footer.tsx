@@ -12,7 +12,7 @@ export const Footer = () => {
           <span className="text-lg font-bold">Coremind </span>
         </div>
         <div className="flex flex-row gap-6">
-          <Link
+          {/* <Link
             href={socialsLink.telegram}
             target="_blank"
             rel="noopener noreferrer"
@@ -21,7 +21,7 @@ export const Footer = () => {
               className="fill-white hover:fill-primaryColor transform transition-all duration-300 hover:scale-110 hover:rotate-12"
               style={{ fontSize: "1.5em" }}
             />
-          </Link>
+          </Link> */}
           <Link
             href={socialsLink.twitter}
             target="_blank"
@@ -44,7 +44,7 @@ export const Footer = () => {
             />
           </Link>
 
-          <Link
+          {/* <Link
             href={findUsLink.dextools}
             target="_blank"
             rel="noopener noreferrer"
@@ -53,12 +53,12 @@ export const Footer = () => {
               className="fill-white hover:fill-primaryColor transform transition-all duration-300 hover:scale-110 hover:rotate-12"
               style={{ fontSize: "1.5em" }}
             />
-          </Link>
+          </Link> */}
         </div>
       </div>
       <div className="flex flex-col sm:flex-row justify-between items-center mb-10 text-[#F9FAFB]">
         <p className="font-thin text-white text-center lg:text-left">
-          &copy; 2024 Coremind .
+          &copy; 2025 Coremind .
         </p>
         <p className="font-thin text-white text-center lg:text-left">
           All rights reserved

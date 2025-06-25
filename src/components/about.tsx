@@ -30,6 +30,16 @@ export const About = () => {
         >
           Why choose <span className="text-primaryColor">Coremind </span>
         </motion.h1>
+
+        <Image
+          src={"/mascot.svg"}
+          alt="mascot coremind"
+          width={100}
+          height={100}
+          className="w-full h-auto animate-updown block md:hidden"
+          priority
+        />
+
         <motion.p
           className="text-lg lg:text-xl text-gray-300 leading-relaxed"
           initial="hidden"
@@ -124,7 +134,7 @@ export const About = () => {
         viewport={{ once: true }}
         variants={fadeIn}
       >
-        <video
+        {/* <video
           src="/1.mp4" // Replace this with the actual video URL
           autoPlay
           loop
@@ -132,6 +142,15 @@ export const About = () => {
           playsInline
           webkit-playsinline="true"
           className="rounded-3xl shadow-lg"
+        /> */}
+
+        <Image
+          src={"/mascot.svg"}
+          alt="mascot coremind"
+          width={100}
+          height={100}
+          className="w-full h-auto animate-updown hidden md:block"
+          priority
         />
         {/* Glowing Effect */}
         <div className="absolute inset-0 rounded-3xl border-[3px] border-primaryColor opacity-30 blur-md"></div>
