@@ -71,7 +71,7 @@ export const NavBar = () => {
               />
             </Link>
             <Link
-              href={findUsLink.uniswap}
+              href={findUsLink.pumpfun}
               target="_blank"
               rel="noopener noreferrer"
             >
