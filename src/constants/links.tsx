@@ -2,7 +2,7 @@ export const contractAddress = "KDRZejggsgcDDHoXcbC7fFy3nhKdMMLSYiJZqSmBcid";
 export const pairAddress = "";
 
 export const socialsLink = {
-  whitepaper: "https://www.docs.usecoremind.com",
+  whitepaper: "https://docs.usecoremind.com",
   twitter: "https://x.com/useCoremind",
   telegram: "https://t.me/",
   medium: "https://medium.com",
